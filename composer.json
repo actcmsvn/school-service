@@ -1,0 +1,29 @@
+{
+    "name": "actcmsvn/school-service",
+    "description": "'Nhà cung cấp dịch vụ cho ứng dụng ACTSMS'",
+    "type": "library",
+    "require": {
+        "actcmsvn/service": "dev-master"
+    },
+    "license": "MIT",
+    "homepage": "https://actcms.io.vn",
+    "authors": [
+        {
+            "name": "ACTCMS Vietnam",
+            "email": "info@actcms.io.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ACTCMS\\SchoolService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ACTCMS\\SchoolService\\SpondonItSchoolServiceProvider"
+            ]
+        }
+    }
+}
